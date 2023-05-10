@@ -3,7 +3,9 @@ import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
-import Book from './components/Book/Book';
+import Fruits from './components/Fruits/Fruits';
+import Categories from './components/Categories/Categories';
+
 
 function App() {
   return (
@@ -12,8 +14,11 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/home' element={<Home/>}></Route>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/fruits' element={ <Fruits/> }></Route>
+        <Route path='/categories' element={<Categories/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
-        <Route path='/book' element={<Book/>}></Route>
+        
       </Routes>
       
       </BrowserRouter>

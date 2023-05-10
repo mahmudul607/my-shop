@@ -1,22 +1,25 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom';
 
+import { Link } from 'react-router-dom';
+import './Header.css'
+import logo from '../../foody-1.png'
 function Home() {
   return (
     <>
-      <Navbar bg="light" variant="light">
-        <Container>
-          <Navbar.Brand><Link to="../home">Navbar</Link></Navbar.Brand>
-          <Nav className="me-auto">
-            <Link to="../home">Home</Link>
-            <Link to="../login">Login</Link>
-            <Link to="../book">Book</Link>
+      
+          <div className='header-area container'>
             
-          </Nav>
-        </Container>
-      </Navbar>
+          
+          <ul>
+            <li className='header-logo'> <img src={logo} alt="#"/> </li>
+            <li><Link to="../home">Home</Link></li>
+            <li><Link to="../fruits">Fruits</Link></li>
+            <li><Link to="../categories">Categories</Link></li>
+
+            <li><Link to="../login">Login</Link></li>
+            
+            
+          </ul>
+          </div>
     </>
   );
 }
