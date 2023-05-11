@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Fruits from './components/Fruits/Fruits';
-import Categories from './components/Categories/Categories';
+import About from './components/About/About';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/fruits' element={ <Fruits/> }></Route>
-        <Route path='/categories' element={<Categories/>}></Route>
+        <Route path='/about' element={<About/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         
       </Routes>

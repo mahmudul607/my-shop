@@ -1,0 +1,5 @@
+.categories-area{
+    position: relative;
+    z-index: -100;
+    background: white transparent;
+}

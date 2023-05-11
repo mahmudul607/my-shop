@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Categories = () => {
+const About = () => {
     return (
         <div>
             <h1>This is categories page</h1>
@@ -8,4 +8,4 @@ const Categories = () => {
     );
 };
 
-export default Categories;
+export default About;

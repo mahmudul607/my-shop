@@ -5,20 +5,20 @@ import logo from '../../foody-1.png'
 function Home() {
   return (
     <>
+    <div className='header-main-area'>
       
+    
           <div className='header-area container'>
-            
-          
+            <div className='endbg'></div>
           <ul>
             <li className='header-logo'> <img src={logo} alt="#"/> </li>
             <li><Link to="../home">Home</Link></li>
             <li><Link to="../fruits">Fruits</Link></li>
-            <li><Link to="../categories">Categories</Link></li>
-
+            <li><Link to="../about">About Us</Link></li>
             <li><Link to="../login">Login</Link></li>
-            
-            
           </ul>
+          
+          </div>
           </div>
     </>
   );
