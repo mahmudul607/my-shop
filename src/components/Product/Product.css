@@ -1,0 +1,6 @@
+.product-area{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    margin-bottom: 20px;
+}

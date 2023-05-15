@@ -1,0 +1,16 @@
+.card-footer button:hover, .card-footer button:focus{
+    background-color: lightgreen;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card{
+    padding: 1%;
+    box-shadow: 0px 12px 8px 0px #9c9c9c;
+    margin-bottom: 20px;
+    margin-right: 4px;
+    border-radius: 10px;
+}
+.card-footer{
+    position: relative;
+    bottom: 0;
+}

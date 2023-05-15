@@ -13,12 +13,15 @@ function Home() {
           <ul className='header-main-ul'>
             <li className='header-logo'> <img src={logo} alt="#"/> </li>
             <li><Link to="../home">Home</Link></li>
-            <li className='dropdown'><ul className='drop-menu'>Fruits
-                  <li className='drop-item'>Mango</li>
-                  <li className='drop-item'>Banana</li>
-                  <li className='drop-item'>Jam</li>
-                  <li className='drop-item'>Lichu</li>
+            <li className='dropdown'><button className='dropbtn'><Link to="../product">Fruits</Link></button>
+            <ul className='dropdown-content'>
+                  <li className='drop-item'> <li><Link to="../mango">Mango</Link></li></li>
+                  <li className='drop-item'> <li><Link to="../banana">Banana</Link></li></li>
+                  <li className='drop-item'> <li><Link to="../jam">Jam</Link></li></li>
+                  <li className='drop-item'> <li><Link to="../lichu">Lichu</Link></li></li>
+              
             </ul>
+                  
             </li>
             <li><Link to="../about">About Us</Link></li>
             <li><Link to="../login">Login</Link></li>

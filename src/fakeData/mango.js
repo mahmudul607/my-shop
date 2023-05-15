@@ -2,7 +2,7 @@ var mango = [
 {
     title:'Fajli Mango',
     description:'Fajli Mango export from Rajshahi',
-    imgUrl:'https://https://i.ibb.co/0KcPYvH/natural-mango.jpg',
+    imgUrl:'https://i.ibb.co/Bcfsn2L/natural-mango.jpg',
     store:'10000kg',
     exporter: 'Mango Bar Ltd',
     price:'150tk/kg'
