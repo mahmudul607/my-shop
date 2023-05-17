@@ -24,7 +24,7 @@ const ProductCard = (props) => {
             <Card.Footer>
              
             
-              <small className="text-muted"><FaWeight/> {product.store} <FontAwesomeIcon icon={faSackDollar} /> {product.price}    <button type="" style={{ marginLeft:'10px', padding:'2%'}}>Buy Now</button></small>
+              <small className="text-muted"><FaWeight/> {product.store} <FontAwesomeIcon icon={faSackDollar} /> {product.price}    <button type="" style={{ marginLeft:'10px', padding:'2%'}}>Add to Cart</button></small>~
             </Card.Footer>
           </Card>
        
