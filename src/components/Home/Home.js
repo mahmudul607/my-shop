@@ -1,6 +1,7 @@
 import React from 'react';
 import FruitsCard from '../FruitsCard/FruitsCard';
-
+import { Container, Row } from 'react-bootstrap';
+import './Home.css'
 
 
 
@@ -37,22 +38,23 @@ const fol = [
     
     return (
         <>
-        <div className='categories-area'>
+        <Container className='categories-area'>
             
         
         <h1 style={{textAlign:'center', fontFamily:'cursive', textDecoration:'underline'}}>Categories</h1>
-        <div  style={{height:'300px', width:'95%', display:'flex', paddingLeft:'5%', overflow:'hidden'}}>
-            <div>
-            
-            </div>
-            {
+        {/* <div  style={{height:'300px', width:'95%', display:'flex', paddingLeft:'5%', overflow:'hidden'}}> */}
+           <Row className='home-fruits-categories-area'>
+           
+                {
                 fol.map(pd => <FruitsCard
                 pd={pd}
                 key={pd.key}
                 ></FruitsCard> )
-            }
-        </div>
-        </div>
+                }
+                
+            </Row>
+        
+        </Container>
         </>
     );
 };

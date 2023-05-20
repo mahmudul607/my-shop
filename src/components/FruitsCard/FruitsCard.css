@@ -1,3 +1,31 @@
 .card{
     padding-left: 10% !important;
+    
 }
+.card-area{
+    width: 25%;
+}
+
+@media  (max-width: 575.98px) {
+
+    .card-area{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+    padding-left: 10% !important;
+    width: 75%;
+}
+}
+
+@media (min-width: 575.99px) and (max-width){
+    .card-area{
+        
+        display: flex;
+        
+        
+    }
+}
+

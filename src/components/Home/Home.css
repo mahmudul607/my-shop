@@ -2,4 +2,31 @@
     position: relative;
     z-index: -100;
     background: white transparent;
+    overflow: hidden;
+}
+.row{
+    overflow: hidden;
+}
+.home-fruits-categories-area{
+    width: 96%;
+    display: flex !important;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+}
+@media (max-width: 575.99px) {
+    
+    .home-fruits-categories-area{
+        flex-wrap: wrap;
+        padding-left: 5%;
+        padding-right: 5%;
+        justify-content: center;
+    }
+}
+@media (min-width: 575.99px) and (max-width){
+    .home-fruits-categories-area{
+        display: flex;
+        flex-wrap: nowrap;
+       
+    }
 }

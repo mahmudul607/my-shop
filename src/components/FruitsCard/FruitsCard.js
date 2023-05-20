@@ -1,5 +1,7 @@
-import Card from 'react-bootstrap/Card';
 
+import { Col, Row } from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
+import './FruitsCard.css';
 
 const FruitsCard = (props) => {
 
@@ -7,8 +9,8 @@ const FruitsCard = (props) => {
     
     
       return (
- 
-          <Card style={{width:'25%', height:'400px'}}>
+        <Col xl={4} md={3} sm={4} className='card-area'>
+          <Card style={{height:'300px'}}>
             <Card.Img style={{width:'70%', height:'50%'}} variant="top" src={pd.imgUrl} />
             <Card.Body>
               <Card.Title>{pd.title}</Card.Title>
@@ -20,6 +22,7 @@ const FruitsCard = (props) => {
               <small className="text-muted">See more..</small>
             </Card.Footer>
           </Card>
+          </Col>
       );
     }
     
